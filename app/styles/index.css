@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Bjorn Regular';
+    src: url('../../assets/fonts/Bjorn Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bjorn Light';
+    src: url('../../assets/fonts/Bjorn Light.ttf') format('truetype');
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.618;
+}
+
+body {
+    background-color: #323232;
+    height: 100%;
+}
+
+#topnav {
+    display: none;
+    background: #323232;
+}
+
+#topnav nav ul {
+    display: flex;
+    align-items: baseline;
+    margin: 0;
+    padding: 0 1rem;
+}
+
+#topnav nav ul li:first-child {
+    margin-right: auto;
+}
+
+#topnav nav ul li {
+    list-style-type: none;
+}
+
+#topnav nav ul li a {
+    margin: 0.5rem;
+    display: block;
+    text-decoration: none;
+    border: none;
+}
+
+#topnav nav ul li a:hover {
+    text-decoration: underline;
+    color: #f1f1f1;
+}
+
+#topnav nav ul li:first-child a:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+#topnav.sticky {
+    display: block;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: none;
+}
+
+section {
+    height: 100vh;
+}
+
+#hero {
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero header {
+    flex-direction: column;
+    margin: auto;
+}
+
+#hero header span {
+    color: #EF4923;
+}
+
+.button-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2.618em;
+}
+
+h1, h2, h3, h4 ,h5 ,h6 {
+    font-family: 'Bjorn Regular', sans-serif;
+    color: #f1f1f1;
+    margin: 0;
+}
+
+h1 {
+    font-size: 6.854em;
+}
+
+h2 {
+    font-size: 4.236em;
+}
+
+h3 {
+    font-size: 2.618em;
+}
+
+h4 {
+    font-size: 1.618em;
+    font-family: 'Bjorn Regular', sans-serif;
+    font-weight: 100;
+}
+
+h4 span {
+    color: #EF4923;
+}
+
+p, button, a {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+p {
+    color: #f1f1f1;
+    font-size: 1em;
+}
+
+button, a {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button {
+    background: none;
+    border: none;
+    color: #f1f1f1;
+    padding: 1em;
+}
+
+button.primary {
+    border: 2px solid #f1f1f1;
+}
+
+button.primary:hover, a:hover {
+    border-color: #EF4923;
+    color: #EF4923;
+}
+
+a {
+    color: #f1f1f1;
+    width: auto;
+    padding: 0.309em;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+
+#inspiration {
+    background-color: #EF4923;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,27 @@
+$base-font-size: 18px;
+$base-ratio: 1.44; //perfect fourth;
+$line-height: 26px;
+
+html {
+    font-size: $base-font-size;
+
+}
+
+h1 {}
+h2 {}
+h3 {}
+p {}
+li {}
+
+a {
+    &:hover {}
+
+    &:active {}
+}
+
+button{}
+
+form {
+    input{}
+    textarea{}
+}
